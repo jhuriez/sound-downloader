@@ -3,6 +3,20 @@ Chrome Sound Downloader
 
 Sound Downloader vous permet de télécharger les sons que vous écoutez sur plusieurs sites différents.
 
+# Installation
+
+## Via l'extension empaqueté
+
+1. Téléchargez le fichier ici : https://mega.co.nz/#!3Z9XlDgI!9ZhJH0MsDGvgO_CVIxznfONj-leRlIxqMICRGAS1KhM
+2. Sur Google Chrome, allez dans Outils > Extensions
+3. Puis Glissez le fichier téléchargée, dans la fenêtre de Google Chrome
+
+## Via le dossier
+
+1. Téléchargez le zip et le dézipper
+2. Sur Google Chrome, allez dans Outils > Extensions
+3. Cliquez sur "Charger l'extension non empaquetée", puis sélectionnez le dossier dézippé
+
 # Formulaire de recherche
 
 Vous pouvez rechercher un titre directement via le formulaire de recherche dans la liste des extensions :
