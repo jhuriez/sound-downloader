@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html>
+  <meta name="author" value="Julien HURIEZ" />
+  <meta name="description" value="" />
+
+
+  <head>
+    <style type="text/css">
+    body {
+      font-size: 0.8em;
+      font-family: Arial;
+      height: 175px;
+      width: 300px;
+      background: #1b6e8c;
+      margin: 0; padding: 10px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #fff;
+      text-shadow: 2px 2px 0px #000;
+    }
+
+    input[type="text"] {
+      width: 253px;
+      margin: 5px auto;
+      height: 23px;
+      border-radius: 9px;
+      border: 0;
+      padding: 9px;
+      display: block;
+      background: #225267;
+      color: #b9d9e5;
+      font-size: 14px;
+      font-weight: bold;
+      text-shadow: 1px 1px 0px #333;
+    }
+
+    input[type="text"]::-webkit-input-placeholder {
+      color: #b9d9e5;
+    }
+
+    input[type="text"]:focus {
+      background: #1c4558;
+      outline: none;
+    }
+
+    .getTrack {
+      display: block;
+      margin-left: 43px;
+      width: 200px;
+      height: 23px;
+      color: #fff;
+      background: #ea533c;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #000;
+
+      -moz-box-shadow: 0px 0px 5px 0px #343434;
+      -webkit-box-shadow: 0px 0px 5px 0px #343434;
+      -o-box-shadow: 0px 0px 5px 0px #343434;
+      box-shadow: 0px 0px 5px 0px #343434;
+      filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=NaN, Strength=5);
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+
+
+      background-image: linear-gradient(to bottom, #ea533c, #da452d);
+      background-repeat: repeat-x;
+
+    }
+
+    .ou {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      position: absolute;
+      left: 142px;
+      margin-top: -10px;
+    }
+
+
+    .auteur {
+      color: #b9d9e5;
+      font-size: 8px;
+      margin-left: -5px;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    select {
+      width: 150px;
+    }
+    </style>
+
+    <title>Sound Downloader</title>
+  </head>
+  <body>
+  <h1>Sound Downloader</h1>
+	<input type="text" placeholder="Recherche ..." id="trackAuthorName"/> 
+	<br/><span class="ou">OU</span>
+	<br/>	
+	<input type="text" placeholder="Auteur" id="authorName"/>
+  <input type="text" placeholder="Titre" id="trackName"/>
+	<br/>
+  <a href="#" class="getTrack">Rechercher</a><br/>
+  
+  <span class="auteur">Par Julien H.</span>
+  <script src="content.js"></script>
+  <script src="form.js"></script>
+	
+  </body>
+</html>

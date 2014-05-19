@@ -1,0 +1,42 @@
+{
+  "name": "Sound Downloader",
+  "version": "1.0",
+  "description": "Téléchargez des musiques via plusieurs sites différents (Deezer, Rdio, YouTube, etc.) ou via le formulaire de recherche",
+  "permissions": [
+      "tabs",
+
+      "contextMenus",
+	  
+      "clipboardRead",
+      "clipboardWrite",
+
+      "http://*/*",
+      "https://*/*"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Sound Downloader",
+      "default_popup": "form.html"
+  },
+
+  "content_scripts": [
+      {
+          "matches": [
+              "http://*/*",
+              "https://*/*"
+          ],
+          "js": ["content.js"]
+      }
+  ],
+
+  "options_page":"options.html",
+
+  "manifest_version": 2
+}

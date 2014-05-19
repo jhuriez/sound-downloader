@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html>
+  <meta name="author" value="Julien HURIEZ" />
+  <meta name="description" value="" />
+
+
+  <head>
+  <style type="text/css">
+    body {
+      font-size: 0.8em;
+      font-family: Arial;
+    }
+
+	tr:hover {
+		background: #225267;
+    color: #fff;
+	}
+
+	td {
+		padding: 6px;
+	}
+	
+  table a {
+    color: #fff;
+    background: #ea533c;
+    text-decoration: none;
+    -moz-box-shadow: 0px 0px 5px 0px #343434;
+    -webkit-box-shadow: 0px 0px 5px 0px #343434;
+    -o-box-shadow: 0px 0px 5px 0px #343434;
+    box-shadow: 0px 0px 5px 0px #343434;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=NaN, Strength=5);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    padding: 4px;
+    background-image: linear-gradient(to bottom, #ea533c, #da452d);
+    background-repeat: repeat-x;
+  }
+
+  table a:hover {
+    background: #ea533c;
+  }
+
+  table {
+    width: 90%;
+	  margin: 0 auto;
+    background: #1b6e8c;
+    color: #b9d9e5;
+    -moz-box-shadow: 0px 0px 10px 0px #343434;
+    -webkit-box-shadow: 0px 0px 10px 0px #343434;
+    -o-box-shadow: 0px 0px 10px 0px #343434;
+    box-shadow: 0px 0px 10px 0px #343434;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=NaN, Strength=10);
+      text-shadow: 1px 1px 0px #333;
+
+  }
+
+  thead {
+    background: #ea533c;
+    color: #fff;
+    border-radius: 10px;
+  }
+  thead th {
+    padding: 5px;
+  }
+
+  td, th, tr {
+    margin: 0;
+  }
+
+  th.center,
+  td.center {
+    text-align: center;
+  }
+
+  th.left,
+  td.left {
+    text-align: left;
+  }
+
+  th.right,
+  td.right {
+    text-align: right;
+  }
+  </style>
+
+    <title>Track Downloader</title>
+  </head>
+  <body>
+
+
+    <h1>Résultat de la recherche</h1>
+
+    <table id="search">
+      <thead>
+        <tr>
+          <th class="left">#</th>
+          <th class="left">Titre</th>
+          <th class="left">Durée</th>
+    		  <th class="left">Artiste</th>
+    		  <th class="left">Ecouter</th>
+    		  <th class="left">Telecharger</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <script src="search.js"></script>
+  </body>
+</html>
