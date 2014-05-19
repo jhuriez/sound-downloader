@@ -1,6 +1,8 @@
 Chrome Sound Downloader
 ====================
 
+[English version of the readme](https://github.com/jhuriez/sound-downloader/blob/master/README-en.md)
+
 Sound Downloader vous permet de télécharger les sons que vous écoutez sur plusieurs sites différents.
 
 # Installation
