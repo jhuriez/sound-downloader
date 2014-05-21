@@ -552,7 +552,7 @@ SoundDownloader.prototype.initDownload = function(params)
 
                 // Fetch artists
                 var artists = hostSongData.performer_container.querySelectorAll('span.artist>a');
-                for(var i = 0; i<artists; i++)
+                for(var i = 0; i<artists.length; i++)
                 {
                     hostSongData.performer += artists[i].innerText + ' ';
                 }
@@ -575,7 +575,7 @@ SoundDownloader.prototype.initDownload = function(params)
 
                         // Fetch artists
                         var artists = hostSongData.performer_container.querySelectorAll('a');
-                        for(var i = 0; i<artists; i++)
+                        for(var i = 0; i<artists.length; i++)
                         {
                             hostSongData.performer += artists[i].innerText + ' ';
                         }
