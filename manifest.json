@@ -1,6 +1,6 @@
 ﻿{
   "name": "Sound Downloader",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Téléchargez des musiques via plusieurs sites différents (Deezer, Rdio, YouTube, etc.) ou via le formulaire de recherche",
   "permissions": [
       "tabs",
